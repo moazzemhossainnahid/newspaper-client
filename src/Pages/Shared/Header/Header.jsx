@@ -27,7 +27,11 @@ const Header = () => {
                             <li><NavLink to="/food">Food</NavLink></li>
                             <li><NavLink to="/videos">Videos</NavLink></li>
                             <li><NavLink to="/features">Features</NavLink></li>
+                        <div className="form-control">
+                            <input type="text" placeholder="Search" className="input input-sm w-40 mx-auto input-bordered" />
+                        </div>
                         </ul>
+
                     </div>
                     <a className="btn btn-ghost normal-case text-xl">
                         <img src="https://themes.zozothemes.com/newser/wp-content/themes/newser/images/sticky-logo.png" alt="" className="" />
@@ -52,7 +56,7 @@ const Header = () => {
                         <li><NavLink to="/features">Features</NavLink></li>
                     </ul>
                 </div>
-                <div className="navbar-end">
+                <div className="navbar-end hidden md:flex">
                     <div className="form-control">
                         <input type="text" placeholder="Search" className="input input-bordered" />
                     </div>

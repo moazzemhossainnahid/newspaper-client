@@ -121,13 +121,13 @@ const Footer = () => {
                                     <div key={item.id} >
                                         <li className='flex justify-start items-start'>
                                             <BiChevronRight className='text-red-600 text-2xl' />
-                                            <a className='text-white text-lg  hover:text-red-600' href="">{item.title}</a>
+                                            <a className='text-white text-md  hover:text-red-600' href="">{item.title}</a>
                                         </li>
                                     </div>
                                 ))}
                                 <li className='flex justify-start items-start'>
                                     <BiChevronRight className='text-red-600 text-2xl' />
-                                    <a className='text-white text-lg  hover:text-red-600' href="">Consectetur adipisicing saepe  architecto</a>
+                                    <a className='text-white text-md  hover:text-red-600' href="">Consectetur adipisicing saepe  architecto</a>
                                 </li>
                             </div>
                         </div>
@@ -137,7 +137,7 @@ const Footer = () => {
                                 <h2 className='text-white  inline-block  p-1 text-start'> TWITTER POSTS</h2>
                                 <hr />
                             </div>
-                            <div className='mb-7'>
+                            <div className='mb-7 text-sm'>
                                 <div className='flex justify-start items-center'>
                                     <div>
                                         <img src="https://pbs.twimg.com/profile_images/894839241707896833/C0eWPNNR_normal.jpg" alt="" />
