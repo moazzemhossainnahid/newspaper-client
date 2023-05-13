@@ -44,7 +44,7 @@ const Footer = () => {
 
 
     return (
-        <div className='container w-full bg-black pt-10 p-5'>
+        <div className='container w-full bg-black pt-10 p-5 mt-10'>
             <div className='w-full mx-auto'>
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5'>
                     <div>
