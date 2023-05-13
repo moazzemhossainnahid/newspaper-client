@@ -34,33 +34,6 @@ const blogs = [
         date: 'Feb 11, 2019'
     },
 ]
-const fitnessblogs = [
-    {
-        id: 1,
-        image: 'https://i.ibb.co/MVT20G1/post-2-130x80.jpg',
-        title: 'Facts should know about stuffed peppers',
-        name: 'Food'
-    },
-    {
-        id: 2,
-        image: 'https://i.ibb.co/gJj4p85/video-img15-130x80.jpg',
-        title: '8 Fantastic ways to improve your daily fitness',
-        name: 'Fitness'
-
-    },
-    {
-        id: 3,
-        image: 'https://i.ibb.co/khMk0Cv/post-23-130x80.jpg',
-        title: 'They back return to you Kennedy Darlings',
-        name: 'Mobile'
-    },
-    {
-        id: 4,
-        image: 'https://i.ibb.co/HNdH1q2/post-7-130x80.jpg',
-        title: 'Home team takes the win – NBA 2016',
-        name: 'Basketball'
-    },
-]
 
 const HeadBlogs = [
     {
@@ -75,26 +48,11 @@ const HeadBlogs = [
         view: '9728'
     },
 ]
-const fitnessBlog = [
-    {
-        id: 1,
-        title: 'Being a rock-star is a matter of fashion',
-        name: 'Rechel',
-        image: 'https://i.ibb.co/S6wkJgC/post-1-430x315.jpg',
-        descriptions: 'Accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt…'
-    },
-    {
-        id: 1,
-        title: 'Being a rock-star is a matter of fashion',
-        name: 'Rechel',
-        image: 'https://i.ibb.co/ggCjFck/post-2-430x315.jpg',
-        descriptions: 'Being a food lover always Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas…'
-    },
-]
+
 
 const AllBlogs = () => {
     return (
-        <article >
+        <article className='container w-full'>
             <div className='flex justify-between items-center border-b'>
                 <div>
                     <ul className='flex justify-start items-center'>
@@ -109,9 +67,9 @@ const AllBlogs = () => {
                 </li>
             </div>
 
-            <div className='flex justify-between gap-7 items-center '>
+            <div className='flex flex-col md:flex-row justify-between gap-7 items-center '>
 
-                <div className='mt-3 w-1/2 mx-auto'>
+                <div className='mt-3 md:w-1/2 mx-auto'>
                     {HeadBlogs.map((a) => (
                         <div key={a.id}>
                             <div className='relative '>
@@ -131,7 +89,7 @@ const AllBlogs = () => {
                     ))}
                 </div>
 
-                <div className=' w-1/2 mx-auto'>
+                <div className='md:w-1/2 mx-auto'>
                     {blogs.map((item) => (
                         <div key={item.id}>
                             <div className='flex justify-around gap-5 items-center  mb-3'>
