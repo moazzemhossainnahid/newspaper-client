@@ -2,7 +2,7 @@ import React from 'react';
 
 const HomeTop = () => {
     return (
-        <div className='w-full container'>
+        <div className='w-full z-0 container'>
             <div className='flex flex-col md:flex-row justify-center gap-3 items-center my-6'>
                 <div className='w-full md:w-3/5 mx-auto h-full'>
                     <div className='relative overflow-hidden lg:h-48'>
