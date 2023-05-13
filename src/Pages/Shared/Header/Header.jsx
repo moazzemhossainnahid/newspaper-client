@@ -27,9 +27,11 @@ const Header = () => {
                             <li><NavLink to="/food">Food</NavLink></li>
                             <li><NavLink to="/videos">Videos</NavLink></li>
                             <li><NavLink to="/features">Features</NavLink></li>
-                        <div className="form-control">
-                            <input type="text" placeholder="Search" className="input input-sm w-40 mx-auto input-bordered" />
-                        </div>
+
+                            <div className="form-control">
+                                <input type="text" placeholder="Search" className="input input-sm w-40 mx-auto input-bordered" />
+                            </div>
+
                         </ul>
 
                     </div>
