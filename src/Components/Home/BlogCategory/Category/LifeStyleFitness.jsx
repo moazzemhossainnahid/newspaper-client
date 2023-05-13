@@ -57,12 +57,12 @@ const LifeStyleFitness = () => {
                 <img src="https://i.ibb.co/26T1Tyb/ad-2.jpg" alt="" />
             </div>
             <div className='mt-10'>
-                <h2 className='border-b py-1 mb-7 text-white'><span className='bg-yellow-600  p-1 text-sm'>Lifestyle & Fitness</span></h2>
+                <h2 className='border-b py-1 mb-3 text-white'><span className='bg-yellow-600  p-1 text-sm'>Lifestyle & Fitness</span></h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
                     {fitnessBlog.map((item) => (
                         <div key={item.id} >
                             <div >
-                                <h2 className='text-white text-xl mb-3  text-left'>{item.title}</h2>
+                                <h2 className='text-black text-xl mb-3  text-left'>{item.title}</h2>
                                 <div className='relative  '>
                                     <img className='w-full mb-5 ' src={item.image} alt="" />
                                     <div className='absolute  bottom-0 py-3 flex items-center justify-center rounded'>

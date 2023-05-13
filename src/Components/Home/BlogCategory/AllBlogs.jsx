@@ -119,7 +119,6 @@ const AllBlogs = () => {
                 <LifeStyleFitness />
             </div>
 
-
         </article>
     );
 };

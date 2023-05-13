@@ -50,7 +50,7 @@ const Technology = () => {
         <div className=''>
             <div className='my-10'>
                 <h2 className='border-b py-1  text-black'><span className='bg-blue-600  p-1 text-sm'>Technology</span></h2>
-                <div>
+                <div className='pt-3'>
                     {HeadBlogs?.map((b) => (
                         <div className='flex flex-col md:flex-row justify-start items-center gap-5'>
                             <div className='relative '>
